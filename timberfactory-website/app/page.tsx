@@ -2,112 +2,61 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">app/page.tsx</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <div style={{width: '100%', height: '100%', position: 'relative', background: 'white'}}>
+    <img style={{width: '100%', height: 612, left: 0, top: 0, position: 'absolute'}} src="https://via.placeholder.com/1440x612" />
+    <div style={{width: '100%', height: 75, left: 0, top: 0, position: 'absolute', background: 'linear-gradient(0deg, rgba(247, 227, 192, 0.45) 0%, rgba(247, 227, 192, 0.45) 100%), linear-gradient(0deg, rgba(32, 35, 28, 0.25) 0%, rgba(32, 35, 28, 0.25) 100%)'}} />
+    <div style={{width: 85, height: 75, left: 45, top: 0, position: 'absolute', background: '#697932', boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.35)'}}></div>
+    <div style={{width: 1440, height: 1814, left: -0, top: 612, position: 'absolute', background: '#F7E3C0'}} />
+    <div style={{width: 508, height: 146, left: 466, top: 668, position: 'absolute', textAlign: 'center', color: 'black', fontSize: 40, fontFamily: 'Franklin Gothic Heavy', fontWeight: '400', wordWrap: 'break-word'}}>Lorem Ipsum</div>
+    <div style={{width: 445, height: 74, left: 132, top: 258, position: 'absolute', color: '#F7E3C0', fontSize: 15, fontFamily: 'Franklin Gothic Heavy', fontWeight: '400', wordWrap: 'break-word'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non iaculis ipsum. Proin at hendrerit orci. Nulla facilisi. Nam suscipit.</div>
+    <div style={{width: 397, height: 119, left: 130, top: 133, position: 'absolute', color: 'white', fontSize: 45, fontFamily: 'Franklin Gothic Heavy', fontWeight: '400', wordWrap: 'break-word'}}>Lorem Ipsum Dolor Sit Amet</div>
+    <div style={{left: 132, top: 324.50, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex'}}>
+        <button style={{width: 150, height: 39, background: '#697932', boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.35)', borderRadius: 10, textAlign: 'center', color: '#F7E3C0', fontSize: 10, fontFamily: 'Franklin Gothic Demi', fontWeight: '400', wordWrap: 'break-word'}}>Sipariş Ver</button>
+    </div>
+    <div style={{width: 700, height: 20, left: 300, top: 27, position: 'absolute'}}>
+        <div style={{width: 100, height: 20, left: 600, top: 0, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 14, fontFamily: 'Franklin Gothic Heavy', fontWeight: '400', wordWrap: 'break-word'}}>İLETİŞİM</div>
+        <div style={{width: 100, height: 20, left: 450, top: 0, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 14, fontFamily: 'Franklin Gothic Heavy', fontWeight: '400', wordWrap: 'break-word'}}>SİPARİŞ</div>
+        <div style={{width: 100, height: 20, left: 300, top: 0, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 14, fontFamily: 'Franklin Gothic Heavy', fontWeight: '400', wordWrap: 'break-word'}}>ÜRÜNLER</div>
+        <div style={{width: 100, height: 20, left: 150, top: 0, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 14, fontFamily: 'Franklin Gothic Heavy', fontWeight: '400', wordWrap: 'break-word'}}>HAKKIMIZDA</div>
+        <div style={{width: 100, height: 20, left: 0, top: 0, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 14, fontFamily: 'Franklin Gothic Heavy', fontWeight: '400', wordWrap: 'break-word'}}>ANA SAYFA </div>
+    </div>
+    <div style={{width: 100, height: 20, left: 1247, top: 27, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 14, fontFamily: 'Franklin Gothic Heavy', fontWeight: '400', wordWrap: 'break-word'}}>İNGİLİZCE</div>
+    <div style={{width: 1238, height: 270, left: 101, top: 1168, position: 'absolute'}}>
+        <img style={{width: 350, height: 270, left: 0, top: 0, position: 'absolute'}} src="https://via.placeholder.com/350x270" />
+        <img style={{width: 350, height: 270, left: 444, top: 0, position: 'absolute'}} src="https://via.placeholder.com/350x270" />
+        <img style={{width: 350, height: 270, left: 888, top: 0, position: 'absolute'}} src="https://via.placeholder.com/350x270" />
+    </div>
+    <div style={{width: 1440, height: 756, left: 0, top: 1527, position: 'absolute', background: '#697932'}} />
+    <div style={{width: 1440, height: 300, left: 0, top: 752, position: 'absolute'}}>
+        <img style={{width: 1440, height: 300, left: 0, top: 0, position: 'absolute'}} src="https://via.placeholder.com/1440x300" />
+        <div style={{width: 1440, height: 131, left: 0, top: 169, position: 'absolute', opacity: 0.35, background: '#39251D'}} />
+        <div style={{width: 1354, height: 100, left: 52, top: 184, position: 'absolute'}}>
+            <div style={{width: 277, height: 97, left: 0, top: 0, position: 'absolute'}}>
+                <div style={{width: 277, height: 97, left: 0, top: 0, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 24, fontFamily: 'Franklin Gothic Heavy', fontWeight: '400', wordWrap: 'break-word'}}>Lorem Ipsum Dolor </div>
+                <div style={{width: 210, height: 48, left: 36, top: 49, position: 'absolute', color: '#FFF2DA', fontSize: 15, fontFamily: 'Franklin Gothic Heavy', fontWeight: '400', wordWrap: 'break-word'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+            </div>
+            <div style={{width: 277, height: 97, left: 359, top: 0, position: 'absolute'}}>
+                <div style={{width: 277, height: 97, left: 0, top: 0, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 24, fontFamily: 'Franklin Gothic Heavy', fontWeight: '400', wordWrap: 'break-word'}}>Lorem Ipsum Dolor </div>
+                <div style={{width: 210, height: 48, left: 36, top: 49, position: 'absolute', color: '#FFF2DA', fontSize: 15, fontFamily: 'Franklin Gothic Heavy', fontWeight: '400', wordWrap: 'break-word'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+            </div>
+            <div style={{width: 277, height: 97, left: 718, top: 0, position: 'absolute'}}>
+                <div style={{width: 277, height: 97, left: 0, top: 0, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 24, fontFamily: 'Franklin Gothic Heavy', fontWeight: '400', wordWrap: 'break-word'}}>Lorem Ipsum Dolor </div>
+                <div style={{width: 210, height: 48, left: 36, top: 49, position: 'absolute', color: '#FFF2DA', fontSize: 15, fontFamily: 'Franklin Gothic Heavy', fontWeight: '400', wordWrap: 'break-word'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+            </div>
+            <div style={{width: 277, height: 97, left: 1077, top: 0, position: 'absolute'}}>
+                <div style={{width: 277, height: 97, left: 0, top: 0, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 24, fontFamily: 'Franklin Gothic Heavy', fontWeight: '400', wordWrap: 'break-word'}}>Lorem Ipsum Dolor </div>
+                <div style={{width: 210, height: 48, left: 36, top: 49, position: 'absolute', color: '#FFF2DA', fontSize: 15, fontFamily: 'Franklin Gothic Heavy', fontWeight: '400', wordWrap: 'break-word'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+            </div>
         </div>
-      </div>
-
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore the Next.js 13 playground.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+    </div>
+    <div style={{width: 158, height: 0, left: 641, top: 728, position: 'absolute', border: '0.50px #D0C4AE solid'}}></div>
+    <div style={{width: 1440, height: 463, left: 0, top: 1673, position: 'absolute'}}>
+        <img style={{width: 1440, height: 463, left: 0, top: 0, position: 'absolute'}} src="https://via.placeholder.com/1440x463" />
+        <div style={{width: 355, height: 463, left: 0, top: 0, position: 'absolute', opacity: 0.90, background: '#1D1715'}} />
+        <div style={{width: 377, height: 463, left: 545, top: 0, position: 'absolute', opacity: 0.85, background: '#2E201B'}} />
+        <div style={{width: 190, height: 463, left: 355, top: 0, position: 'absolute', opacity: 0.84, background: '#1D1715'}} />
+        <div style={{width: 1440, height: 463, left: 0, top: 0, position: 'absolute', opacity: 0.20, background: '#723C27'}} />
+    </div>
+</div>
   )
 }
